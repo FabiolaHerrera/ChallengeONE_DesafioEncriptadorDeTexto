@@ -209,7 +209,7 @@ margin-left: 50px;
     position: absolute;
     width: 280px;
     height: 67px;
-    left: 760px;
+    left: 750px;
     top: 480px;
         
     border: 1px solid #0A3871;
@@ -402,7 +402,7 @@ flex-grow: 1;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 19px;
     text-align: center;
     color: #0A3871;
@@ -412,7 +412,21 @@ flex-grow: 1;
     height: 67px;
     left: 0px;
     top: 555px;
+    
 }   
+
+.img-pie{
+    width: 30px;
+    height: 30px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 0px;
+    cursor: pointer;
+    border-radius: 8px;
+    padding-top: 15px;
+
+}
 
 @media (min-width: 300px) and (max-width: 900px)  {
     .div-logo{
