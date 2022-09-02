@@ -425,9 +425,12 @@ flex-grow: 1;
     cursor: pointer;
     border-radius: 8px;
     padding-top: 15px;
-
+    transition: 2s all;
 }
 
+.img-pie:hover {
+    transform: scale(1.2);
+} 
 @media (min-width: 300px) and (max-width: 900px)  {
     .div-logo{
         width: 120px;
